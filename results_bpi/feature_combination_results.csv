@@ -1,0 +1,5 @@
+Feature_Set,Num_Features,Features,CV_AUC,Test_AUC,Test_Accuracy,Test_Precision,Test_Recall,Test_F1
+5_basic,5,"Priority, Impact, Urgency, # Reassignments, Num_Related_Incidents",0.789,0.7889,0.7284,0.6874,0.6954,0.6914
+8_temporal,8,"Priority, Impact, Urgency, # Reassignments, Num_Related_Incidents, Open_Hour, Open_DayOfWeek, Is_Weekend",0.7883,0.7827,0.7257,0.6808,0.7023,0.6914
+12_operational,12,"Priority, Impact, Urgency, # Reassignments, Num_Related_Incidents, Open_Hour, Open_DayOfWeek, Is_Weekend, Assignment_Delay_Hours, Num_Groups_Touched, Total_Activity_Events, Queue_Length_At_Open",0.8491,0.857,0.7844,0.755,0.7509,0.7529
+26_all,26,"Priority, Impact, Urgency, # Reassignments, Num_Related_Incidents, Open_Hour, Open_DayOfWeek, Is_Weekend, Assignment_Delay_Hours, Num_Groups_Touched, Total_Activity_Events, Queue_Length_At_Open, Group_Avg_Handle_Time, Group_Breach_Rate, Group_Reassignment_Rate, Group_Case_Count, Interaction_Count, FCR_Rate, Num_Related_Changes, Has_Reopen, Is_Business_Hours, Open_Month, Num_Related_Interactions, Has_Related_Change, CI_Type_Encoded, Category_Encoded",0.8954,0.8958,0.8056,0.755,0.8227,0.7874

@@ -1,0 +1,27 @@
+Feature,Source,Justification
+Priority,Real,Impact x Urgency priority from HP SM SLA clock
+Impact,Real,Business impact level — drives SLA stringency
+Urgency,Real,How urgent the caller reports the issue
+# Reassignments,Real,Number of times case was rerouted — operational cost signal
+Num_Related_Incidents,Real,Linked incidents — indicates systemic issue
+Open_Hour,Derived,Hour of day — captures shift/staffing patterns
+Open_DayOfWeek,Derived,Day of week — weekend vs weekday staffing
+Is_Weekend,Derived,"Weekend flag — reduced staffing, longer queues"
+Assignment_Delay_Hours,Derived,Hours from case open to first assignment — unassigned wait
+Num_Groups_Touched,Derived,Distinct groups the case passed through — handoff complexity
+Total_Activity_Events,Derived,Total activity events — case complexity indicator
+Queue_Length_At_Open,Derived,Cases currently open when this one arrives — system load
+Group_Avg_Handle_Time,Derived,Assignment group's historical avg handle time
+Group_Breach_Rate,Derived,Assignment group's historical SLA breach rate
+Group_Reassignment_Rate,Derived,Assignment group's tendency to reassign cases
+Group_Case_Count,Derived,How many cases the group has handled — experience proxy
+Interaction_Count,Real,Number of customer interactions on the case
+FCR_Rate,Real,First Call Resolution rate for this case's interactions
+Num_Related_Changes,Real,Linked change requests — indicates scope
+Has_Reopen,Real,Whether case was reopened — resolution quality signal
+Is_Business_Hours,Derived,Opened during 8am-6pm — staffing availability
+Open_Month,Derived,Month — seasonal workload variation
+Num_Related_Interactions,Real,Number of related interactions from incident record
+Has_Related_Change,Derived,Whether a change request is linked
+CI_Type_Encoded,Real,"Configuration item type — hardware, software, app, etc."
+Category_Encoded,Real,"Incident category — incident, request, complaint"

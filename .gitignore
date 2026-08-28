@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+
+# CatBoost temp files
+catboost_info/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Old IBM Telco experiment (not part of final project)
+data/
+results/
+generate_crm_dataset.py
+ml_pipeline.py
+
+# Temp download artifact
+bpi2014/test.csv
