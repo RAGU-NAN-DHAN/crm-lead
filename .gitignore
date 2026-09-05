@@ -18,5 +18,6 @@ results/
 generate_crm_dataset.py
 ml_pipeline.py
 
-# Temp download artifact
+# Dataset folders (too large for GitHub, download from source)
 bpi2014/test.csv
+home_credit/
